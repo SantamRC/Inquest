@@ -1,0 +1,22 @@
+body{
+   background-color:orangered;
+}
+#inquest{
+    padding-left: 10%;
+}
+li{
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+    background-color: black;
+    margin: 0;
+    padding: 20px 20px;
+    overflow: hidden;
+}
+ li:hover{
+     background-color: blue;
+ }
