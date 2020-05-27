@@ -46,3 +46,5 @@
 [2020-05-27 18:03:09.191] [exthost] [error] [vscode.typescript-language-features] provider FAILED
 [2020-05-27 18:03:09.193] [exthost] [error] Error: busy
 	at a._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:183890)
+[2020-05-27 19:06:45.199] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"extensionId":{"value":"vscode.markdown-language-features","_lower":"vscode.markdown-language-features"},"activationEvent":"onLanguage:markdown"}
+[2020-05-27 19:06:45.201] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/markdown-language-features/dist/extension

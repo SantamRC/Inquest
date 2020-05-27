@@ -148,3 +148,5 @@ Open repository: /home/santam
 > git ls-files --stage -- /home/santam/Documents/Projects/inquest/public/robots.txt
 > git show :Documents/Projects/inquest/public/style.css
 > git ls-files --stage -- /home/santam/Documents/Projects/inquest/public/style.css
+> git show :Documents/Projects/inquest/README.md
+> git ls-files --stage -- /home/santam/Documents/Projects/inquest/README.md
