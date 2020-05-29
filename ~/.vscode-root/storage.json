@@ -1460,5 +1460,6 @@
             }
         },
         "openedWindows": []
-    }
+    },
+    "pickerWorkingDir": "/home/santam/Documents/Projects"
 }

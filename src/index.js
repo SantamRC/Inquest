@@ -1,8 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import './App.js';
+import {Link,BrowserRouter} from 'react-router-dom';
+ 
 
 ReactDOM.render(
-  <h1>Hello World</h1>,
-  document.getElementById('root')
-);
+<ul>
+  <BrowserRouter>
+    <Link to='/'>
+      <li>Home</li>
+    </Link>
+    <Link to='/rules' >
+      <li>Rules</li>
+    </Link>
+    <Link to='/ieee'>
+      <li>IEEE</li>
+    </Link>
+    <Link to='/log'>
+      <li>Sign In</li>
+    </Link>
+  </BrowserRouter>
+</ul>,
+document.getElementById('header'));

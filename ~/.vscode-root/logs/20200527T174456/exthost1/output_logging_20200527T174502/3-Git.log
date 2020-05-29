@@ -150,3 +150,22 @@ Open repository: /home/santam
 > git ls-files --stage -- /home/santam/Documents/Projects/inquest/public/style.css
 > git show :Documents/Projects/inquest/README.md
 > git ls-files --stage -- /home/santam/Documents/Projects/inquest/README.md
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/santam/Documents/Projects/inquest/~/.vscode-root/GPUCache/data_0
+fatal: your current branch 'master' does not have any commits yet
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/santam/Documents/Projects/inquest/~/.vscode-root/GPUCache/data_0
+fatal: your current branch 'master' does not have any commits yet
+> git show :Documents/Projects/inquest/~/.vscode-root/GPUCache/data_0
+> git ls-files --stage -- /home/santam/Documents/Projects/inquest/~/.vscode-root/GPUCache/data_0
+> git show :Documents/Projects/inquest/README.md
+> git ls-files --stage -- /home/santam/Documents/Projects/inquest/README.md
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :Documents/Projects/inquest/public/style.css
+> git ls-files --stage -- /home/santam/Documents/Projects/inquest/public/style.css
+> git show :Documents/Projects/inquest/public/index.html
+> git ls-files --stage -- /home/santam/Documents/Projects/inquest/public/index.html
+> git show :Documents/Projects/inquest/src/App.js
+> git ls-files --stage -- /home/santam/Documents/Projects/inquest/src/App.js
