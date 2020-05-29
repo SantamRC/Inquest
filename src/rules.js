@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../src/CSS/rules.css';
 
 function rule(){
     return(

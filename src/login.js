@@ -11,6 +11,6 @@ function log(){
         </div>
     );
     
-}
+};
 
 export default log;
