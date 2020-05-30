@@ -1,0 +1,13 @@
+body {
+    background-image: url("") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+  }
+  .large-header {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    z-index: -100;
+  }
