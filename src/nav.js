@@ -5,8 +5,8 @@ import './CSS/nav.css';
 
 function NAV(){
     return( 
-        <div className="bar">
-            <div className='float'>
+        <div className="container-fluid">
+            <div className='pic'>
                 <img id='inquest'class='float-left' src={require('./Assets/Inquest.png')} alt='Nothing' height='150' />
             </div>
             <ul className='nav justify-content end'>
