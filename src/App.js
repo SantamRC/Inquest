@@ -4,6 +4,7 @@ import rule from './rules';
 import club from './ieee';
 import NAV from './nav.js';
 import board from './leaderboard';
+import home from './home'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
@@ -22,12 +23,5 @@ function App() {
     </Router>
   );
 }
-
-function home(){
-  return(
-    <h1>HOME PAGE</h1>
-  )
-}
-
 
 export default App;
