@@ -1,13 +1,17 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import './CSS/nav.css';
+
 
 function NAV(){
     return( 
         <div className="nav-bar">
-            <img src='../Assets/Inquest.jpeg' alt='Nothing'></img>
-            <ul>
-                <Link to='/'><li>HOME</li></Link>
-                <Link to='/ieee'><li>IEEE</li></Link>
+            <img id='inquest'src={require('./Assets/Inquest.png')} alt='Nothing' height='150' />
+            <ul className='links'>
+                <Link id='option' to='/'><li>HOME</li></Link>
+                <Link id='option' to='/rules'><li>RULES</li></Link>
+                <Link id='option' to='/ieee'><li>IEEE</li></Link>
+                <Link id='option' to='/login'><li>SIGN IN</li></Link>
             </ul>
         </div>
     );
