@@ -11,6 +11,7 @@ function NAV(){
                 <Link id='option' to='/'><li>HOME</li></Link>
                 <Link id='option' to='/rules'><li>RULES</li></Link>
                 <Link id='option' to='/ieee'><li>IEEE</li></Link>
+                <Link id='option' to='/leaderboard'><li>LEADERBOARD</li></Link>
                 <Link id='option' to='/login'><li>SIGN IN</li></Link>
             </ul>
         </div>
