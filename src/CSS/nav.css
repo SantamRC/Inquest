@@ -1,24 +1,25 @@
 .container-fluid{
-    background-color: rgb(8, 7, 51);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: absolute;
-
+    flex-shrink: 1;
 }
 
 li{
     margin-left: 1cm;
     border-radius: 5cm;
     padding:0.5cm;
-    text-decoration-color: rgb(85, 44, 189);
-    
+    opacity: 0.5;
+    flex-shrink: 1;
+    color: floralwhite;
 }
 .nav{
     position: relative;
     float:right;
+    flex-shrink: 1;
 }
 #option{
     color: aliceblue;
     float:right;
+    flex-shrink: 1;
 }
 li:hover{
     background-color: rgb(101, 47, 172);
@@ -26,11 +27,24 @@ li:hover{
 }
 #inquest{
     height: 1.5cm;
-
+    flex-shrink: 1;
 }
 
 
 body{
-   background-color: rgb(226, 224, 224);
+    background-image:url('../Assets/sample.jpg')
 }
 
+@media (max-width:768px){
+    body{
+        background-image:url('../Assets/sample.jpg');
+        background-repeat: no-repeat;
+        }
+    #inquest{
+        margin-left: 7cm;
+        
+    }
+    li:hover{
+        background-color: rgb(8, 8, 8);
+    }
+}

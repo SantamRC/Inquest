@@ -2,11 +2,14 @@
     height: 15cm;
     margin:1cm;
     margin-top: 2cm;
+    flex-shrink: 1;
+    display:flex;
 }
 
 .home{
     display: flex;
     flex-direction: row-reverse;
+    flex-shrink: 1;
 }
 .card{
     background-color: rgb(99, 10, 10);
@@ -15,13 +18,29 @@
     border-radius: 2cm;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     top:3cm;
+    flex-shrink: 1;
 }
 .btn{
     margin:1cm;
     background-color: rgb(71, 178, 240);
+    flex-shrink: 1;
 }
 .card-text{
     color: aliceblue;
     margin-top: 1cm;
     padding:0.5cm;
+    flex-shrink: 1;
+}
+
+@media (max-width:768px){
+    #home-sherlock{
+        display: none;
+    }
+    .card{
+        background-color: rgb(69, 148, 148);
+        opacity: 0.7;
+    }
+    .card-text{
+        color: rgb(255, 255, 255);
+    }
 }
