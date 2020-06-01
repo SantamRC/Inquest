@@ -41,7 +41,9 @@ body{
         background-repeat: no-repeat;
         }
     #inquest{
-        margin-left: 7cm;
+        margin-left: auto;
+        margin-right: auto;
+        
         
     }
     li:hover{
